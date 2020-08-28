@@ -1,0 +1,111 @@
+body{
+    background-color: #00263b;
+    font-family: 'Londrina Solid', cursive;
+}
+.main{
+  width: 40%;
+  height: auto;
+    background-color: #fbd46d;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    border-radius: 2%;
+}
+
+@media(max-width:720px){
+  .main{
+    width: 90%;
+        left: 5%;
+  }
+}
+@media(max-width:320px){
+  .main{
+    width: 100%;
+  }
+}
+
+.circle-logo{
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+  display: inline-block;
+margin-top: 2rem;
+}
+.circle-logo i{
+color: white;
+position: relative;
+top: 1rem;
+}
+.circle-span{
+  font-size: 4rem;
+}
+
+.login-form{
+text-align: center;
+}
+.user,.pass{
+padding: 1rem;
+}
+
+.div-span{
+  width: 2.8rem;
+  height: 2.8rem;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 30%;
+  position: relative;
+  z-index: 1;
+}
+.div-span i{
+color: #fff;
+position: relative;
+top: 25%;
+}
+.login-input{
+width: 12rem;
+height: 2.2rem;
+vertical-align: middle;
+font-size: 1.5rem;
+padding: 1rem;
+right: 0.7rem;
+position: relative;
+border: 2px solid #f4f6ff;
+outline: none;
+box-shadow: 1px 1px 6px 1px #00263b;
+}
+
+.custom-control{
+  padding-right: 7rem ;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before,.div-span,.form-btn,.circle-logo {
+  background-color: #00263b;
+}
+
+
+.form-btn {
+  border: none;
+  color: white;
+  padding: 0.1rem 4rem;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+border-radius: 3%;
+box-shadow: 1px 1px 4px 1px #00263b;
+
+}
+.form-btn:hover{
+opacity: 0.9;
+box-shadow: none;
+}
+.form-btn:focus {
+outline: none;
+}
+
+.form-a a{
+  display: block;
+  color: #00263b;
+      text-decoration: none;
+      margin-bottom: 0.5rem;
+}
+.custom-control-label{
+  color: #00263b;
+}
